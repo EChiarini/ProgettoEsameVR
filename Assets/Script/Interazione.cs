@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Interazione : MonoBehaviour
 {
-    public float interactionDistance = 5.0f;
+    public float interactionDistance = 3.0f;
     public LayerMask interactLayers;
 
     void Update()
