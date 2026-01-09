@@ -15,7 +15,6 @@ public class MovimentoPorte : MonoBehaviour
         aperturaIniziale = transform.localRotation;
         aperturaVolutaTradotta = Quaternion.Euler(0, aperturaVoluta, 0) * aperturaIniziale;
     }
-
     void Update()
     {
         Quaternion cheFaccio = portaAperta ? aperturaIniziale : aperturaVolutaTradotta;
